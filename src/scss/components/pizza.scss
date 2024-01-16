@@ -1,0 +1,35 @@
+.pizza {
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 40%;
+    }
+
+    &__content {
+        padding: 8px 18px;
+        background-color: #fbf303;
+        border-radius: 10px;
+        width: 40%;
+
+        h1 {
+            color: rgb(225, 38, 38);
+        }
+
+        
+    h4 {
+        font-weight: 700;
+        font-size: 27px;
+    }
+
+
+        span {
+            color: #b56f0e;
+            font-size: 30px;
+        }
+
+    }
+
+}
